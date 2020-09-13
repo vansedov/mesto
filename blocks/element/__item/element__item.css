@@ -1,0 +1,9 @@
+.element__item {
+  max-width: 282px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+}

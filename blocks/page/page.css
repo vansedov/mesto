@@ -1,0 +1,11 @@
+.page {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: black;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  
+}
