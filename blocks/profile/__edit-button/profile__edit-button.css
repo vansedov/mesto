@@ -8,18 +8,19 @@
   background-position: center;
   box-sizing: border-box;
   border: 1px solid white;
-  margin: 18px auto 16px 17px;
+  margin: 19px 0 16px;
 }
 
 .profile__edit-button:hover {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 320px) {
   .profile__edit-button {
     width: 18px;
     height: 18px;
+    margin-left: 0;
   
   }
 }
