@@ -6,10 +6,8 @@
   width: 20px;
   height: 19px;
   border: none;
-  position: absolute;
-  bottom: 31px;
-  right: 30px;
-  
+  align-self: center;
+  margin-right: 18px;
 }
 
 .element__like:hover {

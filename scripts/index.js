@@ -2,8 +2,8 @@ const popup = document.querySelector('.popup');
 const popupOpenButton = document.querySelector('.profile__edit-button');
 const popupCloseButton = popup.querySelector('.popup__close-button');
 const formSubmit = document.querySelector('.popup__container');
-const inputName = document.querySelector('.popup__input-name');
-const inputSubname = document.querySelector('.popup__input-subname');
+const inputName = document.querySelector('.popup__input_name');
+const inputSubname = document.querySelector('.popup__input_subname');
 const profileName = document.querySelector('.profile__name');
 const profileSubname = document.querySelector('.profile__subname');
 
@@ -40,7 +40,8 @@ const popupCloseByClickOnOverlay = (event) => {
   popupClose(event);
 }
 
-const submitForm = (event) =>{
+const submitForm = (event) => {
+  event.preventDefault();
   saveUserData();
   popupClose(event);
 }
