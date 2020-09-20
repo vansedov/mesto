@@ -1,7 +1,7 @@
 .profile__edits {
-  width: 100%;
+  width: 341px;
   display: flex;
   flex-wrap: wrap;
   margin-top: 18px;
-  
+  outline: 1px solid red;
 }
